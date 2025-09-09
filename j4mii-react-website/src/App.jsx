@@ -8,6 +8,7 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
 import './App.css'
+import './index.css'
 
 function App() {
   return (

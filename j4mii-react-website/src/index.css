@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'LaChatteMaman';
-  src: url('/src/assets/fonts/LaChatte.ttf') format('truetype');
+  src: url('/assets/fonts/LaChatte.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -84,3 +84,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
