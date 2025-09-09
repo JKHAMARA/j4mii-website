@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Home from "../Pages/Home";
+import Projects from "../Pages/Projects";
+import About from "../Pages/About";
+import Contact from "../Pages/Contact";
 
 const Navbar = () => {
   return (
@@ -15,12 +19,12 @@ const Navbar = () => {
         <ul className="flex justify-center sm:justify-end items-center 
                     gap-8 sm:gap-6 md:gap-8 
                     text-xs sm:text-sm md:text-base tracking-wide">
-        <li className="relative pb-1 after:absolute after:left-0 after:-bottom-[2px] after:h-[2px] after:w-full after:bg-blue-500">
-            <a href="#">Home</a>
-        </li>
-        <li><a className="hover:text-blue-400" href="#">Projects</a></li>
-        <li><a className="hover:text-blue-400" href="#">About</a></li>
-        <li><a className="hover:text-blue-400" href="#">Contact</a></li>
+          <li className="relative pb-1 after:absolute after:left-0 after:-bottom-[2px] after:h-[2px] after:w-full after:bg-blue-500">
+              <Link to="/">Home</Link>
+          </li>
+          <li><Link className="hover:text-blue-400" to="/Projects">Projects</Link></li>
+          <li><Link className="hover:text-blue-400" to="/About">About</Link></li>
+          <li><Link className="hover:text-blue-400" to="/Contact">Contact</Link></li>
         </ul>
     </div>
 </nav>

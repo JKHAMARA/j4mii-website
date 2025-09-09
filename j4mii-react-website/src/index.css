@@ -1,5 +1,22 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
 @import "tailwindcss";
-:root {
+
+@font-face {
+  font-family: 'LaChatteMaman';
+  src: url('/src/assets/fonts/LaChatte.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Custom font class */
+.font-logo {
+  font-family: 'LaChatteMaman', cursive;
+} 
+
+
+
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -66,4 +83,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
