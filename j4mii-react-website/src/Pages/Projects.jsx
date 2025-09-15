@@ -9,7 +9,7 @@ const Projects = () => {
     { id: 3, title: "Project 3", image: "/assets/miskul-bg.png", url: "https://miskul.com" },
   ];
 
-  const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(1);
 
   const prevSlide = () => {
     setCurrent((prev) => (prev === 0 ? prev : prev - 1));
