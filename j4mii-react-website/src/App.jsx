@@ -12,16 +12,18 @@ import './index.css'
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[radial-gradient(ellipse_at_center,_#f3f4f6,_#e5e7eb_60%,_#d1d5db_100%)] text-black relative overflow-hidden">
+    <div className="min-h-screen w-full bg-[radial-gradient(ellipse_at_center,_#f3f4f6,_#e5e7eb_60%,_#d1d5db_100%)] text-black relative overflow-hidden hide-scrollbar">
       <Router>
         <Navbar />
 
+      <div className='pt-16'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+      </div>
 
         <SocialLinks />
         <Footer />

@@ -20,7 +20,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#F8F8F8] to-[#999999] flex flex-col">
+    <div className="flex flex-col">
       {/* Main Section */}
       <main className="flex flex-col items-center flex-1 px-4 py-10">
         {/* Description */}
