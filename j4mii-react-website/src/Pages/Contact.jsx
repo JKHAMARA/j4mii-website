@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
 
           {/* Right Section - Contact Form */}
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          <div className="bg-[radial-gradient(ellipse_at_center,_#f3f4f6,_#e5e7eb_60%,_#d1d5db_100%)] rounded-2xl p-8 shadow-lg">
             <h2 className="text-4xl font-bold text-black mb-8">
               CONTACT FORM
             </h2>
@@ -112,10 +112,10 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="pt-6">
+              <div className="pt-6 flex justify-center">
                 <button
                   type="submit"
-                  className="bg-[#3d5afe] hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-200 flex items-center space-x-2"
+                  className="bg-[#3d5afe] hover:bg-blue-700 text-[#000000] font-bold py-2 px-8 text-lg transition-colors duration-200 flex items-center space-x-2 shadow-lg hover:shadow-2xl"
                 >
                   <span>SEND MESSAGE</span>
                   <span>→</span>
