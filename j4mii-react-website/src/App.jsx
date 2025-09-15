@@ -12,7 +12,7 @@ import './index.css'
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-[radial-gradient(ellipse_at_center,_#f3f4f6,_#e5e7eb_60%,_#d1d5db_100%)] text-black relative overflow-hidden hide-scrollbar">
+    <div className="min-h-screen w-full bg-[radial-gradient(ellipse_at_center,_#f3f4f6,_#e5e7eb_60%,_#d1d5db_100%)] text-black relative overflow-hidden">
       <Router>
         <Navbar />
 
