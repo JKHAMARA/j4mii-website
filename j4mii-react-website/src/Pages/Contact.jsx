@@ -33,7 +33,7 @@ const Contact = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-black mb-8">
                 CONTACT
               </h1>
-              <p className="text-gray-800 text-lg leading-relaxed max-w-md">
+              <p className="text-gray-800 text-lg leading-relaxed max-w-xl text-center mx-auto">
                 Have questions, suggestions, or need support? We'd love to 
                 hear from you! Reach out to us via email, phone, or social 
                 media, and our team will respond promptly. Whether you're 
