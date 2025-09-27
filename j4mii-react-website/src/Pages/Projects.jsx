@@ -63,7 +63,7 @@ const Projects = () => {
               return (
                 <div
                   key={project.id}
-                  className={`bg-gradient-to-b from-[#F8F8F8] to-[#929292] transition-all duration-500 ease-in-out w-40 sm:w-56 md:w-64 lg:w-72 h-56 sm:h-72 md:h-80 lg:h-96   shadow-md flex items-center justify-center ${position}`}
+                  className={`bg-gradient-to-b from-[#F8F8F8] to-[#929292] transition-all duration-500 ease-in-out w-40 sm:w-56 md:w-64 lg:w-72 h-56 sm:h-72 md:h-80 lg:h-96 shadow-md flex items-center justify-center ${position}`}
                 >
                   <a href={project.url} target="_blank">
                     <img

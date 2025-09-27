@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+/* Outfit global font */
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
 /*Custom font class */
 .font-logo {
   font-family: 'LaChatteMaman', cursive;

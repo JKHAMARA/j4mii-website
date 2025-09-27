@@ -46,12 +46,12 @@ const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h3 className="text-2xl font-bold text-black mb-2">Address</h3>
-                <p className="text-gray-800">Anwarr ihn ose</p>
+                <p className="text-gray-800">28 Peace Lane, Magbenteh</p>
               </div>
 
               <div>
                 <h3 className="text-2xl font-bold text-black mb-2">Phone</h3>
-                <p className="text-gray-800">+232 00 00 00 00</p>
+                <p className="text-gray-800">+232 80 288 053</p>
               </div>
 
               <div>
@@ -115,7 +115,7 @@ const Contact = () => {
               <div className="pt-6 flex justify-center">
                 <button
                   type="submit"
-                  className="bg-[#3d5afe] hover:bg-blue-700 text-[#000000] font-bold py-2 px-8 text-lg transition-colors duration-200 flex items-center space-x-2 shadow-lg hover:shadow-2xl"
+                  className="bg-black hover:bg-gray-800 text-white font-bold py-2 px-8 text-lg transition-colors duration-200 flex items-center space-x-2 shadow-lg hover:shadow-2xl"
                 >
                   <span>SEND MESSAGE</span>
                   <span>→</span>

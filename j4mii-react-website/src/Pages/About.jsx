@@ -7,8 +7,8 @@ const About = () => {
   return (
     <div className="About ">
       {/* Company Description */}
-      <section className="company-description py-8 px-4 md:px-8 lg:px-16">
-        <h1 className="text-3xl font-bold mb-4">J4MII is a software development group dedicated to building smart and user-friendly digital solutions.</h1>
+      <section className="company-description py-8 px-4 md:px-8 lg:px-16 text-left">
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">J4MII is a software development group dedicated to building smart and user-friendly digital solutions.</h1>
         <p className="text-gray-500 leading-relaxed">
           We developed MiSkul, an academic tracking app that helps university students calculate grades, store results, and generate official statements with ease.
         </p>
@@ -38,12 +38,12 @@ const About = () => {
             { name: 'Ibrahim S. Bangura', role: ['Backend Developer'], image: 'IB.jpeg' },
             { name: 'Mohamed A. D. Gbla', role: ['Backend Developer'], image: 'Gbla.jpeg' },
           ].map((member, index) => (
-            <div key={index} className="team-member shadow-lg rounded-xl hover:scale-105 transition-transform duration-300 bg-[#3d5afe] overflow-hidden flex flex-col h-[22rem]">
+            <div key={index} className="team-member shadow-lg rounded-xl hover:scale-105 transition-transform duration-300 bg-black overflow-hidden flex flex-col h-[22rem]">
               <div className="team-member-image relative h-64 bg-gray-200 overflow-hidden rounded-b-3xl">
                 <img src={`/assets/images/${member.image}`} alt={member.name} 
                 className="w-full h-full object-cover object-center"/>
               </div>
-              <div className="team-member-info w-full py-3 bg-[#3d5afe] flex flex-col flex-grow justify-center">
+              <div className="team-member-info w-full py-3 bg-black flex flex-col flex-grow justify-center">
                 <h3 className="text-white text-lg font-bold text-center">{member.name}</h3>
                 <div className="flex flex-col items-center space-y-1 mt-1">
                   {member.role.map((r, i) => (
